@@ -1,9 +1,9 @@
 const obj = {
 	name: 'Jon',
-	hello():{
+	hello() {
 		console.log("Hello, I'm " + this.name);
 	},
-	rename(name): {
+	rename(name) {
 		this.name = name;
 	}
 };
