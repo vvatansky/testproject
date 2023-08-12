@@ -1,2 +1,9 @@
-console.log('Hello World - I/C');
-conlole.log('Empty');
+const obj = {
+	name: 'Jon',
+	hello():{
+		console.log("Hello, I'm " + this.name);
+	},
+	rename(name): {
+		this.name = name;
+	}
+};
